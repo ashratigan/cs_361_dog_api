@@ -8,6 +8,8 @@ class DogsController < ApplicationController
 
   # GET /dogs/1 or /dogs/1.json
   def show
+    @dog = Dog.find(params[:id])
+    render json: @dog
   end
 
   # GET /dogs/new
