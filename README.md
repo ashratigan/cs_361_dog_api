@@ -1,24 +1,11 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+To use this project, you need to clone the repo, then do the following commands:
+* rails db:migrate
+* rails db:seed
 
-Things you may want to cover:
+Then to run the server do the following command:
+* rails server
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+For more information on rails, see the [docs](https://guides.rubyonrails.org/)
+Dog data sourced from [here](https://github.com/paiv/fci-breeds)
